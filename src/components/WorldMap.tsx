@@ -31,7 +31,7 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: any[] }> = ({
     });
 
     setMarkers(markersTemp);
-  }, [cafes]);
+  }, [cafes, continent]);
 
   return (
     <div
