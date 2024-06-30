@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col pb-20">
       <Header cafesLength={cafes.length} />
 
       <WorldMap continent={ContinentName.Europe} cafes={cafes} />

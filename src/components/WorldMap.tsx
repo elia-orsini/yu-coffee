@@ -8,34 +8,47 @@ import {
 import { continents } from "@/constants/continents";
 import { ContinentName } from "@/types/continents/ContinentName";
 import { useEffect, useState } from "react";
+import getRatingColour from "@/utils/GetRatingColour";
+import { ICafe } from "@/types/Cafe";
 
-const WorldMap: React.FC<{ continent: ContinentName; cafes: any[] }> = ({
+const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
   continent,
   cafes,
 }) => {
-  const [markers, setMarkers] = useState<number[][]>([]);
+  const [markers, setMarkers] = useState<[number, number][]>([]);
+  const [markersColours, setMarkersColours] = useState<string[]>([]);
 
   const continentData = continents[continent];
 
   useEffect(() => {
-    const continentCafes = cafes.filter((cafe) => cafe.continent === continent);
+    const continentCafes: ICafe[] = cafes.filter(
+      (cafe) => cafe.continent === continent
+    );
 
-    const markersTemp = continentCafes.map((cafe) => {
+    const continentMarkers: [number, number][] = [];
+    const continentMarkersColours: string[] = [];
+
+    continentCafes.map((cafe: ICafe) => {
       const coords = cafe.coords.split(",");
 
-      const convertedCoords = coords.map((coord: string) => {
-        return parseFloat(coord);
-      });
+      const convertedCoords: [number, number] = [
+        parseFloat(coords[0]),
+        parseFloat(coords[1]),
+      ];
 
-      return convertedCoords.reverse();
+      convertedCoords.reverse();
+
+      continentMarkers.push(convertedCoords);
+      continentMarkersColours.push(getRatingColour(cafe.rating));
     });
 
-    setMarkers(markersTemp);
+    setMarkers(continentMarkers);
+    setMarkersColours(continentMarkersColours);
   }, [cafes, continent]);
 
   return (
     <div
-      className="w-full mt-20"
+      className="w-full"
       style={{
         maskImage: "linear-gradient(to top, transparent 5%, black 50%)",
       }}
@@ -50,10 +63,6 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: any[] }> = ({
           geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
           stroke="#000"
           strokeWidth={0.5}
-          translateExtent={[
-            [0, 0],
-            [0, 0],
-          ]}
         >
           {({ geographies }: any) =>
             geographies.map((geo: any) => {
@@ -69,9 +78,9 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: any[] }> = ({
           }
         </Geographies>
 
-        {markers.map((coord) => (
+        {markers.map((coord, i) => (
           <Marker key={`${coord}`} coordinates={coord}>
-            <circle r={1.5} fill="#F00" />
+            <circle r={1.5} fill={markersColours[i]} />
           </Marker>
         ))}
       </ComposableMap>
