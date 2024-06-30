@@ -4,10 +4,14 @@ import CafesList from "@/components/CafesList";
 import Header from "@/components/Header";
 import WorldMap from "@/components/WorldMap";
 import useCafes from "@/hooks/useCafes";
+import useRoasters from "@/hooks/useRoasters";
 import { ContinentName } from "@/types/continents/ContinentName";
 
 export default function Home() {
-  const { cafes, isLoading } = useCafes();
+  const { cafes, isLoadingCafes } = useCafes();
+  const { roasters, isLoadingRoasters } = useRoasters();
+
+  const isLoading = isLoadingCafes || isLoadingRoasters;
 
   if (isLoading) {
     return <p>Loading...</p>;
@@ -19,7 +23,7 @@ export default function Home() {
 
       <WorldMap continent={ContinentName.Europe} cafes={cafes} />
 
-      <CafesList cafes={cafes} />
+      <CafesList cafes={cafes} roasters={roasters} />
     </div>
   );
 }

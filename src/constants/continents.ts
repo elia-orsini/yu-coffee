@@ -2,8 +2,8 @@ import { IContinents } from "@/types/continents/Continents";
 
 export const continents: IContinents = {
   europe: {
-    center: [13, 50],
-    scale: 1000,
+    center: [15, 49],
+    scale: 1100,
   },
   asia: {
     center: [95, 23],

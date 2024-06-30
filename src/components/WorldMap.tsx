@@ -10,6 +10,7 @@ import { ContinentName } from "@/types/continents/ContinentName";
 import { useEffect, useState } from "react";
 import getRatingColour from "@/utils/GetRatingColour";
 import { ICafe } from "@/types/Cafe";
+import useWindowWidth from "@/hooks/useWindowWidth";
 
 const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
   continent,
@@ -19,6 +20,12 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
   const [markersColours, setMarkersColours] = useState<string[]>([]);
 
   const continentData = continents[continent];
+
+  const isScreenSmall = useWindowWidth()! <= 640;
+
+  const maskImageGradient = isScreenSmall
+    ? "linear-gradient(to top, transparent 5%, black 20%)"
+    : "linear-gradient(to top, transparent 5%, black 50%)";
 
   useEffect(() => {
     const continentCafes: ICafe[] = cafes.filter(
@@ -50,7 +57,7 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
     <div
       className="w-full"
       style={{
-        maskImage: "linear-gradient(to top, transparent 5%, black 50%)",
+        maskImage: maskImageGradient,
       }}
     >
       <ComposableMap
@@ -80,7 +87,7 @@ const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
 
         {markers.map((coord, i) => (
           <Marker key={`${coord}`} coordinates={coord}>
-            <circle r={1.5} fill={markersColours[i]} />
+            <circle r={isScreenSmall ? 4 : 3} fill={markersColours[i]} />
           </Marker>
         ))}
       </ComposableMap>

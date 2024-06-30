@@ -1,8 +1,12 @@
 import { ICafe } from "@/types/Cafe";
+import { IRoaster } from "@/types/Roaster";
+import getRoasterNameById from "@/utils/getRoasterNameByID";
+import RoastersScroller from "./RoastersScroller";
 
-const SingleCafe: React.FC<{ cafe: ICafe }> = ({ cafe }) => {
-  console.log(cafe);
-
+const SingleCafe: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
+  cafe,
+  roasters,
+}) => {
   let colouredFlag;
   switch (cafe.rating) {
     case 1:
@@ -29,6 +33,10 @@ const SingleCafe: React.FC<{ cafe: ICafe }> = ({ cafe }) => {
       break;
   }
 
+  const roastersNames: string[] = cafe.roasters.map((roaster) => {
+    return getRoasterNameById(roaster, roasters);
+  });
+
   return (
     <>
       <div className="border border-black rounded-b-md rounded-l-md">
@@ -39,7 +47,8 @@ const SingleCafe: React.FC<{ cafe: ICafe }> = ({ cafe }) => {
         <div className="p-4">
           <p className="my-10 text-lg">{cafe.rating} STARS</p>
           <p>{cafe.city}</p>
-          <p>roasters</p>
+
+          <RoastersScroller roasters={roastersNames} cafe={cafe} />
         </div>
       </div>
     </>

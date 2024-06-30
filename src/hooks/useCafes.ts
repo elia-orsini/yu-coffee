@@ -6,7 +6,7 @@ export default function useCafes() {
 
   return {
     cafes: data,
-    isLoading,
+    isLoadingCafes: isLoading,
     isError: error,
   };
 }
