@@ -1,5 +1,6 @@
 export default function SWRFetcher() {
-  const fetcher = (...args: any) => fetch(...args).then((res) => res.json());
+  const fetcher = (...args: Parameters<typeof fetch>) =>
+    fetch(...args).then((res) => res.json());
 
   return fetcher;
 }
