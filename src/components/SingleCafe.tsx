@@ -10,7 +10,7 @@ const SingleCafe: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
   let colouredFlag = "";
   let colouredDot = "";
 
-  switch (cafe.rating) {
+  switch (Math.floor(cafe.rating)) {
     case 1:
       colouredFlag = "w-1/12 h-[70px] ml-auto rounded-bl-xl bg-1-star";
       colouredDot = "h-2 w-2 rounded-full bg-1-star";
@@ -40,11 +40,11 @@ const SingleCafe: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
       break;
   }
 
-  const roastersNames: string[] = cafe.roasters.map((roaster) => {
+  const roastersNames: string[] = cafe.roasters?.map((roaster) => {
     return getRoasterNameById(roaster, roasters);
   });
 
-  const starsArray = new Array(cafe.rating).fill(0);
+  const starsArray = new Array(Math.floor(cafe.rating)).fill(0);
 
   return (
     <>
