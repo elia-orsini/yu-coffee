@@ -34,7 +34,7 @@ export default function Home() {
 
   if (isLoading) {
     return (
-      <div className="fixed flex flex-col h-screen w-screen">
+      <div className="fixed flex flex-col h-screen w-screen bg-black text-white">
         <h1 className="text-2xl m-auto">
           沁瑜<span className="ml-1">&apos;s Cafes</span>
         </h1>
