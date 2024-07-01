@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import Head from "next/head";
 
 import CafesList from "@/components/CafesList";
 import Header from "@/components/Header";
@@ -45,17 +44,6 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <Head>
-        <meta
-          property="og:image"
-          content="https://i.pinimg.com/564x/2c/e4/18/2ce41824fe50745f37cc9362703d9153.jpg"
-        />
-        <meta
-          property="twitter:image"
-          content="https://i.pinimg.com/564x/2c/e4/18/2ce41824fe50745f37cc9362703d9153.jpg"
-        />
-      </Head>
-
       <Header cafesLength={currentCafes.length} />
 
       <MagicButton setter={setContinent} />
