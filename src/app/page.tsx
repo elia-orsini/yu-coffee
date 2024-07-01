@@ -46,8 +46,14 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Head>
-        <meta property="og:image" content="/logo.png" />
-        <meta property="twitter:image" content="/logo.png" />
+        <meta
+          property="og:image"
+          content="https://i.pinimg.com/564x/2c/e4/18/2ce41824fe50745f37cc9362703d9153.jpg"
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.pinimg.com/564x/2c/e4/18/2ce41824fe50745f37cc9362703d9153.jpg"
+        />
       </Head>
 
       <Header cafesLength={currentCafes.length} />
