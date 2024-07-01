@@ -4,7 +4,7 @@ const Header: React.FC<{ cafesLength: number }> = ({ cafesLength }) => {
       <h1 className="text-2xl">
         钦玉<span className="ml-1">&apos;s Cafes</span>
       </h1>
-      <p className="text-sm">{cafesLength} cafes / 2 continents</p>
+      <p className="text-sm mt-2">{cafesLength} cafes / 2 continents</p>
     </div>
   );
 };

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.small-ping-animation {
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

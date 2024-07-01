@@ -12,7 +12,7 @@ import getRatingColour from "@/utils/GetRatingColour";
 import { ICafe } from "@/types/Cafe";
 import useWindowWidth from "@/hooks/useWindowWidth";
 
-const WorldMap: React.FC<{ continent: ContinentName; cafes: ICafe[] }> = ({
+const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
   continent,
   cafes,
 }) => {

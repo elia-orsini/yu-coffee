@@ -6,7 +6,11 @@ const myFont = localFont({ src: "../../public/fonts/website-font.ttf" });
 
 export const metadata: Metadata = {
   title: "Yu's Cafes",
-  description: "",
+  description: "Yu's Cafes",
+  openGraph: {
+    title: "Yu's Cafes",
+    description: "Yu's Cafes",
+  },
 };
 
 export default function RootLayout({
