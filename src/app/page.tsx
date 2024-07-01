@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 import CafesList from "@/components/CafesList";
 import Header from "@/components/Header";
@@ -44,7 +45,10 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <meta property="og:image" content="/logo.png" />
+      <Head>
+        <meta property="og:image" content="/logo.png" />
+        <meta property="twitter:image" content="/logo.png" />
+      </Head>
 
       <Header cafesLength={currentCafes.length} />
 
