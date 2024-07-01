@@ -61,7 +61,7 @@ const RoastersScroller: React.FC<{ roasters: string[]; cafe: ICafe }> = ({
             return (
               <p
                 key={`roaster_A_${roaster}`}
-                className="px-1 bg-black text-white text-xs w-max whitespace-nowrap"
+                className="px-1 bg-white text-black text-xs w-max whitespace-nowrap"
               >
                 {roaster}
               </p>
@@ -74,7 +74,7 @@ const RoastersScroller: React.FC<{ roasters: string[]; cafe: ICafe }> = ({
             return (
               <p
                 key={`roaster_B_${roaster}`}
-                className="px-1 bg-black text-white text-xs w-max whitespace-nowrap"
+                className="px-1 bg-white text-black text-xs w-max whitespace-nowrap"
               >
                 {roaster}
               </p>
