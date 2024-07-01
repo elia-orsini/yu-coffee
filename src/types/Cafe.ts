@@ -6,4 +6,5 @@ export interface ICafe {
   city: string;
   rating: number;
   roasters: string[];
+  date: string;
 }

@@ -27,13 +27,17 @@ const SingleCafe: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
             <div className="flex flex gap-x-0.5">
               {starsArray.map((i) => (
                 <span
-                  key={`${cafe.id}-${i}`}
+                  key={`${cafe.id}-${i}-${Math.random()}`}
                   className="h-2 w-2 rounded-full bg-white"
                 ></span>
               ))}
             </div>
           </div>
-          <p className="my-4 capitalize">{cafe.city}</p>
+
+          <div className="flex flex gap-x-0.5 my-4 justify-between items-center">
+            <p className="capitalize">{cafe.city}</p>
+            <p className="text-xs mt-1">{cafe.date}</p>
+          </div>
 
           <RoastersScroller roasters={roastersNames} cafe={cafe} />
         </div>
