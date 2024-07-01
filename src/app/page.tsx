@@ -44,6 +44,8 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
+      <meta property="og:image" content="/logo.png" />
+
       <Header cafesLength={currentCafes.length} />
 
       <MagicButton setter={setContinent} />
