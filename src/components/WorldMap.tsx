@@ -67,9 +67,9 @@ const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
         }}
       >
         <Geographies
-          geography="https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
-          stroke="#000"
-          strokeWidth={0.5}
+          geography="https://cdn.jsdelivr.net/npm/world-atlas@2/land-110m.json"
+          stroke="#999"
+          strokeWidth={1}
         >
           {({ geographies }: any) =>
             geographies.map((geo: any) => {
@@ -77,7 +77,7 @@ const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill={"#f1f5f9"}
+                  fill={"#000"}
                   className="pointer-events-none"
                 />
               );
@@ -87,7 +87,8 @@ const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
 
         {markers.map((coord, i) => (
           <Marker key={`${coord}`} coordinates={coord}>
-            <circle r={isScreenSmall ? 4 : 3} fill={markersColours[i]} />
+            <circle r={isScreenSmall ? 4 : 3} fill={"#fff"} />
+            <circle className="animate-ping" r={isScreenSmall ? 5 : 4} fill={"#fff"} />
           </Marker>
         ))}
       </ComposableMap>

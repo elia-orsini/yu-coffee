@@ -35,8 +35,8 @@ const MagicButton: React.FC<{ setter: Dispatch<SetStateAction<string>> }> = ({
       </div>
 
       <div className="fixed h-screen w-screen flex z-10">
-        <div className="ml-auto mr-5 rounded-xl bg-slate-700 opacity-70 sm:mr-10 mt-[75vh] sm:mt-28 h-max">
-          <button className="p-4 px-6 bg-slate-700 text-white rounded-xl h-max w-max small-ping-animation uppercase">
+        <div className="ml-auto mr-5 rounded-xl bg-white opacity-70 sm:mr-10 mt-[75vh] sm:mt-28 h-max">
+          <button className="p-4 px-6 bg-white text-white rounded-xl h-max w-max small-ping-animation uppercase">
             {innerText}
           </button>
         </div>

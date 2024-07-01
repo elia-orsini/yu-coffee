@@ -43,7 +43,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-black text-white">
       <Header cafesLength={currentCafes.length} />
 
       <MagicButton setter={setContinent} />
