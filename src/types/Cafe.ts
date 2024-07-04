@@ -4,6 +4,7 @@ export interface ICafe {
   coords: string;
   continent: string;
   city: string;
+  country: string;
   rating: number;
   roasters: string[];
   date: string;
