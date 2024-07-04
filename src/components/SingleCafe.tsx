@@ -16,7 +16,7 @@ const SingleCafe: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
   return (
     <div className="border border-white rounded-b-md rounded-l-md">
       <div className="flex flex-row">
-        <p className="text-xl uppercase pl-4 pt-4 w-4/5 w-max overflow-hidden">
+        <p className="text-xl font-bold uppercase pl-4 pt-4 w-4/5 w-max overflow-hidden">
           {cafe.name}
         </p>
         <div className="w-1/12 h-[70px] ml-auto rounded-bl-xl bg-white"></div>
