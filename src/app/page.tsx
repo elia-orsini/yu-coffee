@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 import CafesList from "@/components/CafesList";
 import Header from "@/components/Header";
@@ -30,6 +32,20 @@ export default function Home() {
     }
   }, [cafes, isLoading]);
 
+  useGSAP(() => {
+    gsap.from("#HeaderTop", {
+      translateY: "-100%",
+      opacity: 0,
+      duration: 1.5,
+      delay: 0.7,
+    });
+
+    gsap.from("#Main", {
+      opacity: 0,
+      duration: 3,
+    });
+  }, [isLoading]);
+
   const currentCafes = continent === "europe" ? europeanCafes : asianCafes;
 
   if (isLoading) {
@@ -46,13 +62,15 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-black text-white">
       <Header cafesLength={currentCafes.length} />
 
-      <MagicButton setter={setContinent} />
+      <div id="Main">
+        <MagicButton setter={setContinent} />
 
-      <WorldMap continent={continent} cafes={currentCafes} />
+        <WorldMap continent={continent} cafes={currentCafes} />
 
-      <CafesList cafes={currentCafes} roasters={roasters} />
+        <CafesList cafes={currentCafes} roasters={roasters} />
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 }

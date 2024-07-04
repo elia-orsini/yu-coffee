@@ -15,7 +15,7 @@ const CoffeeCard: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
   return (
     <div
       style={{ height: 300 }}
-      className="border border-white rounded-b-md rounded-l-md h-full"
+      className="coffeeCard border border-white rounded-b-md rounded-l-md h-full"
     >
       <div className="flex flex-row h-2/5">
         <p className="text-xl font-bold uppercase pl-4 pt-4 w-4/5 w-max overflow-hidden">

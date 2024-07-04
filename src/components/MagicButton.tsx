@@ -22,13 +22,14 @@ const MagicButton: React.FC<{ setter: Dispatch<SetStateAction<string>> }> = ({
       gsap.set(".transitionElement", {
         zIndex: 40,
         opacity: 1,
+        duration: 0.5
       });
 
       gsap.to(".transitionElement", {
         zIndex: 0,
         opacity: 0,
-        delay: 0.4,
-        duration: 0.4,
+        delay: 0.5,
+        duration: 0.7,
       });
 
       setTimeout(() => {
@@ -39,14 +40,14 @@ const MagicButton: React.FC<{ setter: Dispatch<SetStateAction<string>> }> = ({
 
   return (
     <>
-      <div className="transitionElement opacity-0 fixed flex flex-col h-screen w-screen bg-black text-white">
+      <div className="transitionElement opacity-0 fixed top-0 flex flex-col h-screen w-screen bg-black text-white">
         <h1 className="text-2xl m-auto">
           沁瑜<span className="ml-1">&apos;s Cafes</span>
         </h1>
       </div>
 
       <div className="fixed h-screen w-screen flex z-20">
-        <div className="ml-auto mr-5 sm:mr-10 mt-auto mb-[20vh] sm:mt-28 h-max">
+        <div className="ml-auto mr-5 sm:mr-10 mt-auto mb-[25vh] sm:mt-28 h-max">
           <button
             className="p-4 px-6 text-white rounded-xl h-max w-max border border-white uppercase"
             style={{
@@ -57,6 +58,7 @@ const MagicButton: React.FC<{ setter: Dispatch<SetStateAction<string>> }> = ({
               setter(innerText);
               changeInnerText();
               setTransition(true);
+              window.scrollTo(0, 0);
             }}
           >
             {innerText}
@@ -65,7 +67,7 @@ const MagicButton: React.FC<{ setter: Dispatch<SetStateAction<string>> }> = ({
       </div>
 
       <div className="fixed h-screen w-screen flex z-10">
-        <div className="ml-auto mr-5 rounded-xl bg-white opacity-70 sm:mr-10 mt-auto mb-[20vh] sm:mt-28 h-max">
+        <div className="ml-auto mr-5 rounded-xl bg-white opacity-70 sm:mr-10 mt-auto mb-[25vh] sm:mt-28 h-max">
           <button className="p-4 px-6 bg-white text-white rounded-xl h-max w-max small-ping-animation uppercase">
             {innerText}
           </button>

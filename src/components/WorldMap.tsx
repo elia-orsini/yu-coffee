@@ -55,6 +55,7 @@ const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
 
   return (
     <div
+      id="WorldMap"
       className="w-full"
       style={{
         maskImage: maskImageGradient,
@@ -88,7 +89,11 @@ const WorldMap: React.FC<{ continent: string; cafes: ICafe[] }> = ({
         {markers.map((coord, i) => (
           <Marker key={`${coord}`} coordinates={coord}>
             <circle r={isScreenSmall ? 4 : 3} fill={"#fff"} />
-            <circle className="animate-ping" r={isScreenSmall ? 5 : 4} fill={"#fff"} />
+            <circle
+              className="animate-ping"
+              r={isScreenSmall ? 5 : 4}
+              fill={"#fff"}
+            />
           </Marker>
         ))}
       </ComposableMap>
