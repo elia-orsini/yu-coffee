@@ -1,5 +1,5 @@
 import { ICafe } from "@/types/Cafe";
-import SingleCafe from "./SingleCafe";
+import CoffeeCard from "./CoffeeCard";
 import { IRoaster } from "@/types/Roaster";
 
 const CafesList: React.FC<{ cafes: ICafe[]; roasters: IRoaster[] }> = ({
@@ -52,7 +52,7 @@ const CafesList: React.FC<{ cafes: ICafe[]; roasters: IRoaster[] }> = ({
           <div className="z-10 flex-col-3 grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 m-4 sm:m-10 gap-4 sm:gap-10">
             {sortedDividedCafes[country].map((cafe) => {
               return (
-                <SingleCafe
+                <CoffeeCard
                   key={`cafeCard-${cafe.id}`}
                   cafe={cafe}
                   roasters={roasters}
