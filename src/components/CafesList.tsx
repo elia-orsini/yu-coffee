@@ -5,6 +5,8 @@ import gsap from "gsap";
 import { ICafe } from "@/types/Cafe";
 import CoffeeCard from "./CoffeeCard";
 import { IRoaster } from "@/types/Roaster";
+import sortCafesByDate from "@/utils/SortCafesByDate";
+import divideAndSortByCountry from "@/utils/DivideAndSortByCountry";
 
 const CafesList: React.FC<{
   continent: string;
@@ -34,40 +36,9 @@ const CafesList: React.FC<{
     );
   }
 
-  const sortedCafes = cafes.sort((a, b) => {
-    if (a.date === undefined) return -1;
-    if (b.date === undefined) return 1;
+  const sortedCafes = sortCafesByDate(cafes);
 
-    const aDate = new Date(a.date);
-    const bDate = new Date(b.date);
-
-    if (aDate < bDate) return -1;
-    if (aDate > bDate) return 1;
-
-    return 0;
-  });
-
-  const dividedByCountry: { [key: string]: ICafe[] } = {};
-  const sortedDividedCafes: { [key: string]: ICafe[] } = {};
-
-  if (continent === "europe") {
-    sortedDividedCafes["england"] = [];
-    sortedDividedCafes["scotland"] = [];
-  }
-
-  sortedCafes.map((cafe) => {
-    if (dividedByCountry[cafe.country]) {
-      dividedByCountry[cafe.country].push(cafe);
-    } else {
-      dividedByCountry[cafe.country] = [cafe];
-    }
-  });
-
-  Object.keys(dividedByCountry)
-    .sort()
-    .forEach((key) => {
-      sortedDividedCafes[key] = dividedByCountry[key];
-    });
+  const sortedDividedCafes = divideAndSortByCountry(sortedCafes, continent);
 
   return (
     <div className="flex flex-col -mt-14 sm:-mt-40">
@@ -80,7 +51,7 @@ const CafesList: React.FC<{
             {country}
           </p>
 
-          <div className="z-10 flex-col-3 grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 m-4 sm:m-10 gap-4 sm:gap-10">
+          <div className="z-10 flex-col-3 grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 m-4 sm:m-10 gap-4 sm:gap-4">
             {sortedDividedCafes[country].map((cafe) => {
               return (
                 <CoffeeCard
