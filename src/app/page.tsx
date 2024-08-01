@@ -67,7 +67,7 @@ export default function Home() {
 
         <WorldMap continent={continent} cafes={currentCafes} />
 
-        <CafesList cafes={currentCafes} roasters={roasters} />
+        <CafesList continent={continent} cafes={currentCafes} roasters={roasters} />
 
         <Footer />
       </div>

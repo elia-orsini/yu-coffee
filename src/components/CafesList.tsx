@@ -6,10 +6,11 @@ import { ICafe } from "@/types/Cafe";
 import CoffeeCard from "./CoffeeCard";
 import { IRoaster } from "@/types/Roaster";
 
-const CafesList: React.FC<{ cafes: ICafe[]; roasters: IRoaster[] }> = ({
-  cafes,
-  roasters,
-}) => {
+const CafesList: React.FC<{
+  continent: string;
+  cafes: ICafe[];
+  roasters: IRoaster[];
+}> = ({ continent, cafes, roasters }) => {
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
     const coffeeCards: HTMLDivElement[] = gsap.utils.toArray(".coffeeCard");
@@ -34,14 +35,25 @@ const CafesList: React.FC<{ cafes: ICafe[]; roasters: IRoaster[] }> = ({
   }
 
   const sortedCafes = cafes.sort((a, b) => {
-    if (a.city < b.city) return -1;
-    if (a.city > b.city) return 1;
+    if (a.date === undefined) return -1;
+    if (b.date === undefined) return 1;
+
+    const aDate = new Date(a.date);
+    const bDate = new Date(b.date);
+
+    if (aDate < bDate) return -1;
+    if (aDate > bDate) return 1;
 
     return 0;
   });
 
   const dividedByCountry: { [key: string]: ICafe[] } = {};
   const sortedDividedCafes: { [key: string]: ICafe[] } = {};
+
+  if (continent === "europe") {
+    sortedDividedCafes["england"] = [];
+    sortedDividedCafes["scotland"] = [];
+  }
 
   sortedCafes.map((cafe) => {
     if (dividedByCountry[cafe.country]) {
