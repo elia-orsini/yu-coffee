@@ -15,13 +15,13 @@ const CoffeeCard: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
   return (
     <div
       style={{ height: 200 }}
-      className="coffeeCard border border-white rounded-b-md rounded-l-md h-full"
+      className="coffeeCard border border-white/80 rounded-b-md rounded-l-md h-full"
     >
       <div className="flex flex-row h-1/5">
         <p className="text-xl font-bold uppercase pl-4 pt-4 w-11/12 overflow-hidden">
           {cafe.name}
         </p>
-        <div className="w-1/12 h-[70px] ml-auto rounded-bl-xl bg-white"></div>
+        <div className="w-1/12 h-[70px] ml-auto rounded-bl-xl bg-white/80"></div>
       </div>
       <div className="flex flex-col p-4 h-4/5 gap-y-4">
         <div className="flex flex-row items-center">

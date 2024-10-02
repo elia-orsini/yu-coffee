@@ -47,9 +47,19 @@ const CafesList: React.FC<{
           key={`${country}-cafes`}
           className="flex flex-col sm:w-3/5 sm:mx-auto"
         >
-          <p className="mt-8 capitalize bg-white text-black w-max px-2 mx-4 sm:mx-10">
-            {country}
-          </p>
+          <div className="mt-8 flex">
+            <p className="inline w-max capitalize bg-white text-black w-max ml-4 px-1.5 sm:ml-10">
+              {country}
+            </p>
+
+            <p
+              className={`inline text-xs ml-2 border border-white rounded-full p-1 ${
+                sortedDividedCafes[country].length < 10 ? "px-2" : "px-1.5"
+              }`}
+            >
+              {sortedDividedCafes[country].length}
+            </p>
+          </div>
 
           <div className="z-10 flex-col-3 grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 m-4 sm:m-10 gap-4 sm:gap-4">
             {sortedDividedCafes[country].map((cafe) => {
