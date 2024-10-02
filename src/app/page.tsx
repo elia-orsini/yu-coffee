@@ -52,7 +52,7 @@ export default function Home() {
     return (
       <div className="fixed flex flex-col h-screen w-screen bg-black text-white">
         <h1 className="text-2xl m-auto">
-          沁瑜<span className="ml-1">&apos;s Cafes</span>
+          沁瑜<span className="ml-1">&apos;s Coffee Map</span>
         </h1>
       </div>
     );

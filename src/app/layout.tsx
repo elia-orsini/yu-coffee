@@ -18,11 +18,11 @@ const myFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yu's Cafes",
-  description: "Yu's Cafes",
+  title: "Yu's Coffee Map",
+  description: "Yu's Coffee Map",
   openGraph: {
-    title: "Yu's Cafes",
-    description: "Yu's Cafes",
+    title: "Yu's Coffee Map",
+    description: "Yu's Coffee Map",
   },
 };
 
