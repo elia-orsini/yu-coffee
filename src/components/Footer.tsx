@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <div className="w-full text-2xs text-left uppercase px-2 mb-10 mt-10 sm:mt-20 px-10 z-20">
+    <div className="w-full text-2xs text-left uppercase px-2 mb-10 mt-10 sm:mt-20 sm:mx-10 z-20">
       <p>
         made with {`<3`} by{" "}
         <a
@@ -11,11 +11,8 @@ const Footer: React.FC = () => {
         >
           elia
         </a>{" "}
-        © 2024
+        © 2024. all data stored in notion. frontend crafted using next.js.
       </p>
-
-      <p className="mt-2">all data stored in notion.</p>
-      <p>frontend crafted using next.js.</p>
     </div>
   );
 };
