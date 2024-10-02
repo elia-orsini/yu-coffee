@@ -11,6 +11,7 @@ import useCafes from "@/hooks/useCafes";
 import useRoasters from "@/hooks/useRoasters";
 import { ICafe } from "@/types/Cafe";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   const [continent, setContinent] = useState<string>("europe");
@@ -33,16 +34,9 @@ export default function Home() {
   }, [cafes, isLoading]);
 
   useGSAP(() => {
-    gsap.from("#HeaderTop", {
-      translateY: "-100%",
-      opacity: 0,
-      duration: 1.5,
-      delay: 0.7,
-    });
-
     gsap.from("#Main", {
       opacity: 0,
-      duration: 3,
+      duration: 2,
     });
   }, [isLoading]);
 
@@ -60,12 +54,14 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
-      <Header cafesLength={europeanCafes.length + asianCafes.length} />
+      <Header cafesLength={cafes.length} />
 
       <div id="Main">
         <MagicButton setter={setContinent} />
 
         <WorldMap continent={continent} cafes={currentCafes} />
+
+        {/* <Link className="-mt-10 sm:-mt-96" href="/roasters">Roasters</Link> */}
 
         <CafesList
           continent={continent}

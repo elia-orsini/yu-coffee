@@ -11,5 +11,5 @@
 }
 
 .small-ping-animation {
-  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 0.7) infinite;
 }
