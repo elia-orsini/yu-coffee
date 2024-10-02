@@ -15,7 +15,7 @@ const RoastersScroller: React.FC<{ roasters: string[]; cafe: ICafe }> = ({
 
   useGSAP(() => {
     let translation = 0;
-    const animationSpeed = 0.025;
+    const animationSpeed = 0.07;
 
     const gsapAnimation = () => {
       if (translation < -50) {
