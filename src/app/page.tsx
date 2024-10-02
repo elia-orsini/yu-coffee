@@ -60,14 +60,18 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
-      <Header cafesLength={currentCafes.length} />
+      <Header cafesLength={europeanCafes.length + asianCafes.length} />
 
       <div id="Main">
         <MagicButton setter={setContinent} />
 
         <WorldMap continent={continent} cafes={currentCafes} />
 
-        <CafesList continent={continent} cafes={currentCafes} roasters={roasters} />
+        <CafesList
+          continent={continent}
+          cafes={currentCafes}
+          roasters={roasters}
+        />
 
         <Footer />
       </div>

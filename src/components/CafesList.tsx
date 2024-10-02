@@ -41,7 +41,7 @@ const CafesList: React.FC<{
   const sortedDividedCafes = divideAndSortByCountry(sortedCafes, continent);
 
   return (
-    <div className="flex flex-col -mt-14 sm:-mt-40">
+    <div className="flex flex-col -mt-10 sm:-mt-40">
       {Object.keys(sortedDividedCafes).map((country) => (
         <div
           key={`${country}-cafes`}
