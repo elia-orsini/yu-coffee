@@ -14,23 +14,23 @@ const CoffeeCard: React.FC<{ cafe: ICafe; roasters: IRoaster[] }> = ({
 
   return (
     <div
-      style={{ height: 300 }}
+      style={{ height: 200 }}
       className="coffeeCard border border-white rounded-b-md rounded-l-md h-full"
     >
-      <div className="flex flex-row h-2/5">
+      <div className="flex flex-row h-1/5">
         <p className="text-xl font-bold uppercase pl-4 pt-4 w-11/12 overflow-hidden">
           {cafe.name}
         </p>
         <div className="w-1/12 h-[70px] ml-auto rounded-bl-xl bg-white"></div>
       </div>
-      <div className="flex flex-col p-4 h-3/5 gap-y-6">
-        <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-col p-4 h-4/5 gap-y-4">
+        <div className="flex flex-row items-center">
           <p className="text-base">{getStarsIcons(cafe.rating)}</p>
         </div>
 
         <div className="flex flex-col xl:flex-row sm:gap-0.5 justify-between xl:items-center">
-          <p className="capitalize">{cafe.city}</p>
-          <p className="text-xs mt-1">{cafe.date}</p>
+          <p className="capitalize opacity-80">{cafe.city}</p>
+          <p className="text-2xs opacity-60">{cafe.date || " "}</p>
         </div>
 
         <RoastersScroller roasters={roastersNames} cafe={cafe} />

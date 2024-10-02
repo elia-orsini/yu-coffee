@@ -47,7 +47,7 @@ const CafesList: React.FC<{
           key={`${country}-cafes`}
           className="flex flex-col sm:w-3/5 sm:mx-auto"
         >
-          <p className="mt-14 mb-2 capitalize bg-white text-black w-max px-2 mx-4 sm:mx-10">
+          <p className="mt-8 capitalize bg-white text-black w-max px-2 mx-4 sm:mx-10">
             {country}
           </p>
 
