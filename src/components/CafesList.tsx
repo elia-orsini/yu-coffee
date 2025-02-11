@@ -17,15 +17,15 @@ const CafesList: React.FC<{
     gsap.registerPlugin(ScrollTrigger);
     const coffeeCards: HTMLDivElement[] = gsap.utils.toArray(".coffeeCard");
 
-    coffeeCards.forEach((element: HTMLDivElement) => {
-      gsap.from(element, {
-        scrollTrigger: {
-          trigger: element,
-        },
-        opacity: 0,
-        duration: 1,
-      });
-    });
+    // coffeeCards.forEach((element: HTMLDivElement) => {
+    //   gsap.from(element, {
+    //     scrollTrigger: {
+    //       trigger: element,
+    //     },
+    //     opacity: 0,
+    //     duration: 1,
+    //   });
+    // });
   }, [cafes, roasters]);
 
   if (cafes.length === 0) {
