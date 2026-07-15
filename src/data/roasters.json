@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "e153c45e-a833-44f4-9f76-7f30f8deec2c",
+    "Continent": "EUROPE",
+    "City": "Barcelona",
+    "Website": "https://threemarkscoffee.com/",
+    "Name": "Three Marks"
+  },
+  {
+    "id": "99d23f0b-0dab-4b4d-9653-a65a90f264b3",
+    "Continent": "EUROPE",
+    "City": "Rotterdam",
+    "Website": "https://manhattancoffeeroasters.com/",
+    "Name": "Manhattan"
+  },
+  {
+    "id": "05baa9d4-ac76-4636-be9e-f8e3dfcb05c6",
+    "Continent": "EUROPE",
+    "City": "Copenhagen",
+    "Website": "https://www.prologcoffee.com/",
+    "Name": "Prolog"
+  },
+  {
+    "id": "030a8ef1-1a22-4804-8332-1b3429175c94",
+    "Continent": "EUROPE",
+    "City": "Amsterdam",
+    "Website": "https://www.dakcoffeeroasters.com/",
+    "Name": "DAK"
+  },
+  {
+    "id": "59b5788c-cde0-4a43-84f3-d59f3357438d",
+    "Continent": "EUROPE",
+    "City": "Banes",
+    "Website": "https://roundhillroastery.com/",
+    "Name": "Roundhill"
+  },
+  {
+    "id": "ede60185-e806-4630-aa5f-b008fbada5b8",
+    "Continent": "EUROPE",
+    "City": "Turku",
+    "Website": "https://www.frukt.coffee/",
+    "Name": "Frukt"
+  },
+  {
+    "id": "c4705d20-4494-4807-a201-aa1512323c4e",
+    "Continent": "EUROPE",
+    "City": "Stuttgart",
+    "Website": "https://www.suedhang.org",
+    "Name": "Suedhang"
+  },
+  {
+    "id": "c9faf1f9-590a-4c4d-8c5f-84443d5b8374",
+    "Continent": "EUROPE",
+    "City": "Berlin",
+    "Website": "https://bonanzacoffee.de/",
+    "Name": "Bonanza"
+  },
+  {
+    "id": "6229de3b-5e09-46c3-b46f-2d274a03eda6",
+    "Continent": "EUROPE",
+    "City": "Amsterdam",
+    "Website": "https://friedhats.com/",
+    "Name": "Friedhats"
+  },
+  {
+    "id": "ed50bd7f-7f08-4a95-9996-f982f09f9ae7",
+    "Continent": "EUROPE",
+    "City": "Bristol",
+    "Website": "https://colonnacoffee.com/",
+    "Name": "Colonna"
+  },
+  {
+    "id": "5517a513-5235-4141-963c-c91bbb0f2c20",
+    "Continent": "EUROPE",
+    "City": "Frederiskberg",
+    "Website": "https://coffeecollective.dk/",
+    "Name": "Coffee Collective"
+  },
+  {
+    "id": "4443dcda-ce18-4acc-bd02-c8e651150b4e",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://www.thomsonscoffee.com/",
+    "Name": "Thomson’s Coffee"
+  },
+  {
+    "id": "dccc45fb-74f5-45f1-bcd7-f250d48514dc",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://welovecoffeeltd.com/",
+    "Name": "We Love Coffee"
+  },
+  {
+    "id": "42f95a8a-0f96-4ea9-aa11-87bd0d5eb1a6",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://mel.coffee/",
+    "Name": "Mel"
+  },
+  {
+    "id": "885f3ee5-3b07-4db3-a60e-c0a2ef65928c",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://obadiahcoffee.com/",
+    "Name": "Obadiah"
+  },
+  {
+    "id": "c2671823-5594-45f4-aa58-8b98c767e727",
+    "Continent": "EUROPE",
+    "City": "Fife",
+    "Website": "https://modernstandardcoffee.co.uk/",
+    "Name": "Modern Standard"
+  },
+  {
+    "id": "2055e021-c6a7-4bd1-ae9b-d2150c163e81",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://artisanroast.co.uk/",
+    "Name": "Artisan Roast"
+  },
+  {
+    "id": "5a7fa5f8-b94c-4605-9784-2dc25be2b380",
+    "Continent": "EUROPE",
+    "City": "Ludlow",
+    "Website": "https://hundredhousecoffee.com/",
+    "Name": "Hundred House Coffee"
+  },
+  {
+    "id": "a861191e-9826-4488-8b73-1c1f57235411",
+    "Continent": "EUROPE",
+    "City": "Northern Ireland",
+    "Website": "https://www.wildheart.coffee/",
+    "Name": "Wild Heart"
+  },
+  {
+    "id": "81cb8189-3acf-4b04-99fb-d01646cfec88",
+    "Continent": "EUROPE",
+    "City": "Gothenburg",
+    "Website": "https://www.morgoncoffeeroasters.com/",
+    "Name": "Morgon"
+  },
+  {
+    "id": "3876e0ad-91fc-4518-ac7f-73c7ac8da5e4",
+    "Continent": "EUROPE",
+    "City": "Dublin",
+    "Website": "https://www.sumocoffeeroasters.com/",
+    "Name": "SUMO"
+  },
+  {
+    "id": "33843440-a2cb-4a27-af1a-489772796bc9",
+    "Continent": "EUROPE",
+    "City": "Groningen",
+    "Website": "https://www.untitledcoffee.com/",
+    "Name": "Untitled Coffee"
+  },
+  {
+    "id": "08c753dd-2a75-474d-af73-98eedb039025",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://cairngorm.coffee/",
+    "Name": "Cairngorm"
+  },
+  {
+    "id": "5691083e-7034-4b8d-9bd4-017beb206ade",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://machina-coffee.com/",
+    "Name": "Machina"
+  },
+  {
+    "id": "41699316-188f-4a9a-ab0f-8225db961f7c",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://www.fortitudecoffee.com/",
+    "Name": "Fortitude Coffee"
+  },
+  {
+    "id": "798fc360-e851-4c17-ab5b-154d9f84b0cf",
+    "Continent": "EUROPE",
+    "City": "Liverpool",
+    "Website": "https://92degrees.coffee/",
+    "Name": "92 Degrees"
+  },
+  {
+    "id": "af933d36-5e04-4311-9fb2-8821b0530a75",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://www.papercupcoffee.co.uk/",
+    "Name": "papercup"
+  },
+  {
+    "id": "2f13b70e-84f3-478d-a802-a451fe0a5038",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://zennorcoffee.co.uk/",
+    "Name": "zennor"
+  },
+  {
+    "id": "7b1b42b5-ddb4-45cc-9479-cc99062f55e8",
+    "Continent": "EUROPE",
+    "City": "Isle of Seil",
+    "Website": "https://hinba.co.uk/",
+    "Name": "hinba"
+  },
+  {
+    "id": "d390772f-d948-4705-94bf-32a489e90909",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://www.thegoodcoffeecartel.com/",
+    "Name": "The Good Coffee Cartel"
+  },
+  {
+    "id": "bf0bac26-4861-4f78-bf37-5a4543ab579a",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://usvthem.coffee/",
+    "Name": "US V THEM"
+  },
+  {
+    "id": "1b233857-a6c8-4f45-8255-9cdb64a9a159",
+    "Continent": "EUROPE",
+    "City": "Kent",
+    "Website": "https://www.curveroasters.co.uk/",
+    "Name": "Curve Roasters"
+  },
+  {
+    "id": "f8f9fe62-8743-4fa1-b218-05e2f128a89f",
+    "Continent": "EUROPE",
+    "City": "Udny",
+    "Website": "https://shop.thecoffeeapothecary.co.uk/",
+    "Name": "Coffee Apothecary"
+  },
+  {
+    "id": "fc957fd5-a75b-46be-abcf-b02a6c8a54a4",
+    "Continent": "EUROPE",
+    "City": "Aberdeen",
+    "Website": "https://longwalkco.com/",
+    "Name": "Long Walk"
+  },
+  {
+    "id": "07b6ef91-01e9-459b-9e5e-2ac8862dd08c",
+    "Continent": "EUROPE",
+    "City": "Aberdeen",
+    "Website": "https://thecraftsmancompany.com/",
+    "Name": "The Craftsman Company"
+  },
+  {
+    "id": "d99e4fad-3b49-4722-a347-1714f7f68f5d",
+    "Continent": "EUROPE",
+    "City": "Isle of Skye",
+    "Website": "https://birch-skye.co/",
+    "Name": "Birch"
+  },
+  {
+    "id": "10c6476c-4852-4efa-a662-c2c23575e583",
+    "Continent": "EUROPE",
+    "City": "Kinross",
+    "Website": "https://www.unorthodoxroasters.co.uk/",
+    "Name": "Unorthodox"
+  },
+  {
+    "id": "41107936-cf73-4d23-ba9d-b8c7542a08ae",
+    "Continent": "EUROPE",
+    "City": "Nottingham",
+    "Website": "https://outpost.coffee/",
+    "Name": "Outpost"
+  },
+  {
+    "id": "5590a2cc-b4f8-494a-8e96-73cd139ea6e2",
+    "Continent": "EUROPE",
+    "City": "Wales",
+    "Website": "https://hard-lines.co.uk/",
+    "Name": "Hard Lines"
+  },
+  {
+    "id": "38cb1224-96cc-4c16-872d-4a7c597a10d9",
+    "Continent": "EUROPE",
+    "City": "Oxford",
+    "Website": "https://www.newground.coffee/",
+    "Name": "New Ground"
+  },
+  {
+    "id": "12f30600-3505-428c-bb1a-a40e184a6f54",
+    "Continent": "AMERICA",
+    "City": "Toronto",
+    "Website": "https://www.subtext.coffee",
+    "Name": "Subtext"
+  },
+  {
+    "id": "0324069f-7a99-45e3-93c4-a052d8e4f3ea",
+    "Continent": "EUROPE",
+    "City": "Manchester",
+    "Website": "https://blossomcoffee.co.uk/",
+    "Name": "Blossom"
+  },
+  {
+    "id": "1a7ad654-0379-443f-95de-2d4f622e2cab",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://www.thesourcecoffee.co.uk/",
+    "Name": "the source"
+  },
+  {
+    "id": "831b6a73-b988-403e-a804-cd59e72354c3",
+    "Continent": "EUROPE",
+    "City": "Edinburgh",
+    "Website": "https://www.santucoffee.com/",
+    "Name": "Santu"
+  },
+  {
+    "id": "64a074e5-6bd8-489c-9d17-8b71bfd0eab3",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://www.deargreencoffee.com/",
+    "Name": "Dear Green"
+  },
+  {
+    "id": "7cee94d8-68c9-4bf9-99c2-bc5a60a682ee",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://ovenbird.co.uk/",
+    "Name": "Ovenbird"
+  },
+  {
+    "id": "8f5cbe0d-c9d4-4bcc-9fb1-49f78269f6f8",
+    "Continent": "OCEANIA",
+    "City": "Auckland",
+    "Website": "https://www.allpressespresso.com",
+    "Name": "Allpress"
+  },
+  {
+    "id": "20d502d2-eaae-47e3-a1c9-386a990f9c15",
+    "Continent": "EUROPE",
+    "City": "Cornwall",
+    "Website": "https://www.origincoffee.co.uk/",
+    "Name": "Origin"
+  },
+  {
+    "id": "243868db-2862-42aa-918c-19dba10199ab",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://kissthehippo.com/",
+    "Name": "Kiss The Hippo"
+  },
+  {
+    "id": "0ab507de-930b-4737-9c02-1b4ebdf5c077",
+    "Continent": "EUROPE",
+    "City": "Brixton",
+    "Website": "https://assemblycoffee.co.uk/",
+    "Name": "Assembly"
+  },
+  {
+    "id": "e81abaf0-bb5a-4b2b-bb43-1a521ae6eddc",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://shop.squaremilecoffee.com/",
+    "Name": "Square Mile"
+  },
+  {
+    "id": "01c1f1ed-a3e3-4492-93e4-a1a3cdc91d32",
+    "Continent": "EUROPE",
+    "City": "Oslo",
+    "Website": "https://timwendelboe.no/",
+    "Name": "Tim Wendelboe"
+  },
+  {
+    "id": "90b288cb-e32c-47d5-889b-052b5f29da68",
+    "Continent": "EUROPE",
+    "City": "Oslo",
+    "Website": "https://fuglen.no/",
+    "Name": "Fuglen"
+  },
+  {
+    "id": "9e74d095-5536-495c-bd7b-5c754c565bd1",
+    "Continent": "EUROPE",
+    "City": "Paris",
+    "Website": "https://shop.kawa.coffee/",
+    "Name": "Kawa"
+  },
+  {
+    "id": "b5bb8d4b-2e11-4e2a-9261-112aaf58c543",
+    "Continent": "EUROPE",
+    "City": "Berlin",
+    "Website": "https://thebarn.de/",
+    "Name": "The Barn"
+  },
+  {
+    "id": "ea132b53-6595-4e55-8cb6-637b536c258d",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://www.monmouthcoffee.co.uk/",
+    "Name": "Monmouth"
+  },
+  {
+    "id": "a6485bf8-3fd9-42f5-98ef-39d753ee3b3a",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://caravanandco.com/",
+    "Name": "Caravan"
+  },
+  {
+    "id": "fd901fc7-7a3c-4125-b811-81a06862fd93",
+    "Continent": "EUROPE",
+    "City": "Amsterdam",
+    "Website": "https://fivewayscoffee.com/",
+    "Name": "Fiveways"
+  },
+  {
+    "id": "9dbf37da-3a03-43b3-be30-476c7bb499f2",
+    "Continent": "EUROPE",
+    "City": "East London",
+    "Website": "https://unionroasted.com/",
+    "Name": "Union"
+  },
+  {
+    "id": "85f7a5bd-1002-40a5-8644-119214b6296c",
+    "Continent": "OCEANIA",
+    "City": "Queensland",
+    "Website": "https://www.supremeroasters.com.au/",
+    "Name": "Supreme"
+  },
+  {
+    "id": "03cd34eb-812b-4c29-ae71-77ef192265c2",
+    "Continent": "EUROPE",
+    "City": "Barcelona",
+    "Website": "https://nomadcoffee.es/en/",
+    "Name": "Nomad"
+  },
+  {
+    "id": "42f74196-d8b1-4477-957e-0fa828b7eb9b",
+    "Continent": "EUROPE",
+    "City": "Barcelona",
+    "Website": "https://syra.coffee/",
+    "Name": "Syra"
+  },
+  {
+    "id": "e3d99b65-fef2-4fa6-8d59-8a22d1108aa6",
+    "Continent": "EUROPE",
+    "City": "Amsterdam",
+    "Website": "https://bocca.nl/",
+    "Name": "Bocca"
+  },
+  {
+    "id": "9b334c29-d9b5-414d-96e7-ff0bb746e4de",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://climpsonandsons.com",
+    "Name": "Climpson and Sons"
+  },
+  {
+    "id": "6b699623-16bb-4f10-bebf-b325498c6855",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://blend.kyoto/",
+    "Name": "Blend"
+  },
+  {
+    "id": "6e3f323a-f4dd-4512-ae3f-ac5b560aabdf",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://coffee.liloinveve.com/",
+    "Name": "Lilo"
+  },
+  {
+    "id": "77aa9550-bb88-4143-a862-75de1cbf9749",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://www.weekenderscoffee.com/",
+    "Name": "Weekenders"
+  },
+  {
+    "id": "b5f0ad8f-ac12-45ff-a4b2-1982f18a0f1c",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://rawsugar.base.shop/",
+    "Name": "Raw Sugar"
+  },
+  {
+    "id": "b31a4b8a-c84e-4825-b972-f56e6fe479a4",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://kurasu.kyoto/",
+    "Name": "Kurasu"
+  },
+  {
+    "id": "161d7cc3-d265-4e52-91bb-b241042e5027",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://www.oc-ogawa.co.jp/",
+    "Name": "Ogawa"
+  },
+  {
+    "id": "5c67dc22-b457-4222-b7e4-40a085400da5",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://shop.glitchcoffee.com/",
+    "Name": "Glitch"
+  },
+  {
+    "id": "49e67b96-eebc-4bb0-99fc-cf6de7f6d154",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://elmersgreen.com/",
+    "Name": "Embankment"
+  },
+  {
+    "id": "e0146f4f-323a-43f4-8023-4a9f6e7e03d0",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://yardosaka.com/",
+    "Name": "Yard"
+  },
+  {
+    "id": "3e2970f6-bff3-421b-857c-e1df88ed13f1",
+    "Continent": "EUROPE",
+    "City": "Brussels",
+    "Website": "https://mokcoffee.be/",
+    "Name": "MOK"
+  },
+  {
+    "id": "cd92a417-17f0-4819-b238-dbe59646773c",
+    "Continent": "EUROPE",
+    "City": "Rotterdam",
+    "Website": "https://amatterofconcrete.com/",
+    "Name": "A Matter Of Concrete"
+  },
+  {
+    "id": "298d1c40-81bb-4c52-9b10-0c2d8bc2ebc0",
+    "Continent": "EUROPE",
+    "City": "Stockholm",
+    "Website": "https://www.dropcoffee.com/",
+    "Name": "Drop"
+  },
+  {
+    "id": "b2de16d6-bdec-4a20-9067-7d5e1c547deb",
+    "Continent": "EUROPE",
+    "City": "Bristol",
+    "Website": "https://wogancoffee.com/",
+    "Name": "Wogan"
+  },
+  {
+    "id": "0132cb9e-2fa1-4a03-a76a-849959282a27",
+    "Continent": "ASIA",
+    "City": "Chiang Mai",
+    "Website": "https://sensationcoffeeroasters.com/",
+    "Name": "Sensation"
+  },
+  {
+    "id": "2ed5af80-155b-49cb-8a51-18a245093a99",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://www.darkartscoffee.co.uk/",
+    "Name": "Dark Arts"
+  },
+  {
+    "id": "30ae8ab1-944b-43fe-aaaf-c0ee970f753c",
+    "Continent": "EUROPE",
+    "City": "Bristol",
+    "Website": "https://www.triplecoroast.com/",
+    "Name": "Triple Co Roast"
+  },
+  {
+    "id": "1918c4f6-c84d-4b99-a40e-5c33e8313dd2",
+    "Continent": "EUROPE",
+    "City": "Dublin",
+    "Website": "https://3fe.com/",
+    "Name": "3fe"
+  },
+  {
+    "id": "881e1006-9cbf-453c-9db1-55210765bf03",
+    "Continent": "EUROPE",
+    "City": "Brighton",
+    "Website": "https://skylark.coffee/pages/transparency",
+    "Name": "SkyLark"
+  },
+  {
+    "id": "858ac14b-e753-4d77-a4af-910a31a781e3",
+    "Continent": "EUROPE",
+    "City": "Unknown",
+    "Website": "https://peoplepossession.com/HOME",
+    "Name": "People Possession"
+  },
+  {
+    "id": "e3c3d51a-a4ff-46f7-b0b2-7c9182588fa3",
+    "Continent": "EUROPE",
+    "City": "Bath",
+    "Website": "https://coffever.co.uk/",
+    "Name": "Coffever"
+  },
+  {
+    "id": "415e5868-c607-4918-87ad-8dc6185e1031",
+    "Continent": "EUROPE",
+    "City": "Prague",
+    "Website": "https://www.theminers.eu/",
+    "Name": "The Miners"
+  },
+  {
+    "id": "830d26d8-6833-468e-b02c-62df3c651866",
+    "Continent": "EUROPE",
+    "City": "Stafford",
+    "Website": "https://ozonecoffee.co.uk/",
+    "Name": "OZONE"
+  },
+  {
+    "id": "d3b8f3c9-2ef6-456b-bed6-10d38ebe9d66",
+    "Continent": "EUROPE",
+    "City": "Gothenburg",
+    "Website": "https://coffeacirculor.com/",
+    "Name": "Coffea Circulor"
+  },
+  {
+    "id": "eb476a5a-2c86-4778-aeb2-e0dac6d68e5a",
+    "Continent": "EUROPE",
+    "City": "Bristol",
+    "Website": "https://www.swevencoffee.co.uk/",
+    "Name": "Sweven"
+  },
+  {
+    "id": "cb4d532b-cf43-493e-995b-edd71446b187",
+    "Continent": "EUROPE",
+    "City": "Rome",
+    "Website": "https://aliena.space",
+    "Name": "Aliena"
+  },
+  {
+    "id": "b516df39-4382-4887-b8df-ca03c3e9103a",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://www.the-attendant.com/",
+    "Name": "Attendant"
+  },
+  {
+    "id": "b719d19c-e1b5-4995-bdaa-37bcfb23a765",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://workshopcoffee.com/",
+    "Name": "Workshop"
+  },
+  {
+    "id": "72bf1d32-68f2-4201-bfcb-ea101d818771",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://elsewherecoffee.com/",
+    "Name": "Elsewhere"
+  },
+  {
+    "id": "5f2ba97b-fdd8-4b0e-8445-6428bc07ceb3",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://www.stylecoffee.jp/",
+    "Name": "Style"
+  },
+  {
+    "id": "dfcafb7c-aa8d-471c-bf57-61f1a010a6c8",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://terracoffeeroasters.earth/",
+    "Name": "Terra"
+  },
+  {
+    "id": "f4eeb4a7-e40e-469f-a169-21ec20a77bcc",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://leavescoffee.jp/",
+    "Name": "Leaves"
+  },
+  {
+    "id": "09d1d44b-d803-401e-8120-2d8af9027fcf",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://westsidecoffee.stores.jp/",
+    "Name": "Westside"
+  },
+  {
+    "id": "1f9796fb-4f87-462d-9c07-cfb947022104",
+    "Continent": "OCEANIA",
+    "City": "Sydney",
+    "Website": "https://singleo.com.au/",
+    "Name": "Single O"
+  },
+  {
+    "id": "24d1287a-d725-4d96-94c0-f2094da89494",
+    "Continent": "ASIA",
+    "City": "Kurume",
+    "Website": "https://coffeecounty.cc/",
+    "Name": "Coffee County"
+  },
+  {
+    "id": "a693c3b6-7e61-443e-be46-a0a0499f4353",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://hariocafe-lwf.com/",
+    "Name": "Hario"
+  },
+  {
+    "id": "d1c1f58c-e229-40c2-88b1-5bfd0868ff3c",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://onibuscoffee.com/",
+    "Name": "Onibus"
+  },
+  {
+    "id": "1ff8e43b-9f7e-4ee2-a08b-a2c33e3229f6",
+    "Continent": "EUROPE",
+    "City": "Glasgow",
+    "Website": "https://www.spitfireespresso.com/",
+    "Name": "Spitfire"
+  },
+  {
+    "id": "9d48ba3a-a74d-4e6b-9bfb-21a8cbae9569",
+    "Continent": "EUROPE",
+    "City": "Belfast",
+    "Website": "https://process.coffee/",
+    "Name": "Process"
+  },
+  {
+    "id": "470fe1af-7425-4abc-ad93-1a3801babe97",
+    "Continent": "EUROPE",
+    "City": "Essex",
+    "Website": "https://ninthcoffeeroasters.com/",
+    "Name": "Ninth"
+  },
+  {
+    "id": "7e65951c-6d32-4b4f-a9bc-442dc5fa2d40",
+    "Continent": "EUROPE",
+    "City": "Prague",
+    "Website": "https://mazelabcoffee.com/",
+    "Name": "mazelab"
+  },
+  {
+    "id": "7a5348a5-2c33-4b99-a774-ab5604305c38",
+    "Continent": "EUROPE",
+    "City": "Aarhus",
+    "Website": "https://lacabra.com/",
+    "Name": "LA CABRA"
+  },
+  {
+    "id": "6a1c8776-9b66-4f13-857a-d58786ced5b2",
+    "Continent": "EUROPE",
+    "City": "Bristol",
+    "Website": "https://www.fcp.coffee/",
+    "Name": "Full Court Press"
+  },
+  {
+    "id": "df0b4f16-ae6c-42b9-977b-c37385dc585c",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://www.coborncoffee.com/",
+    "Name": "Coborn"
+  },
+  {
+    "id": "2faf89a5-6628-4994-98e9-3b15ee50c48d",
+    "Continent": "EUROPE",
+    "City": "Belfast",
+    "Website": "https://www.lucidcoffeeroasters.com/",
+    "Name": "Lucid"
+  },
+  {
+    "id": "4115559b-fe0a-45c3-b7c6-fe537ee61447",
+    "Continent": "EUROPE",
+    "City": "Moorland",
+    "Website": "#",
+    "Name": "Charlie Mills"
+  },
+  {
+    "id": "31b65919-ef28-4579-b338-2160428efb4b",
+    "Continent": "EUROPE",
+    "City": "Herefordshire",
+    "Website": "https://jamesgourmetcoffee.com/",
+    "Name": "James Gourmet"
+  },
+  {
+    "id": "90fb6606-2e76-46ec-8c24-7dbfbe599c85",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://killbean.co.uk/",
+    "Name": "Killbean"
+  },
+  {
+    "id": "dd6bd208-d27e-42c7-95e4-03d83eab8bf4",
+    "Continent": "AMERICA",
+    "City": "Boulder",
+    "Website": "https://getprodigal.com/",
+    "Name": "Prodigal"
+  },
+  {
+    "id": "bbb4d14b-4785-42f3-9ab4-315f46186717",
+    "Continent": "ASIA",
+    "City": "Guangzhou",
+    "Website": "#",
+    "Name": "7-INN"
+  },
+  {
+    "id": "2a79b487-a33f-408a-94f2-125f77731523",
+    "Continent": "ASIA",
+    "City": "Changsha",
+    "Website": "#",
+    "Name": "Hammer"
+  },
+  {
+    "id": "7f430d0e-70b2-4b58-a3ef-7804092bb06f",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://obscura-coffee.com/",
+    "Name": "Obscura"
+  },
+  {
+    "id": "75279e3b-0942-4982-b1bc-2be67fd83782",
+    "Continent": "ASIA",
+    "City": "Singapore",
+    "Website": "https://homegroundcoffeeroasters.com/",
+    "Name": "Homeground"
+  },
+  {
+    "id": "ab07bfc4-21eb-474c-a3fd-73d4ba3a32b8",
+    "Continent": "ASIA",
+    "City": "Shenzhen",
+    "Website": "#",
+    "Name": "GIF"
+  },
+  {
+    "id": "5f22396b-053e-4d18-8e43-d939d217e154",
+    "Continent": "ASIA",
+    "City": "Taipei",
+    "Website": "https://simplekaffa.com/",
+    "Name": "SIMPLE KΛFFΛ"
+  },
+  {
+    "id": "112412c6-08f3-80b4-a97b-fa5934e9a65e",
+    "Continent": "ASIA",
+    "City": "Hong Kong",
+    "Website": "https://craftcoffeeroaster.hk/",
+    "Name": "Craft"
+  },
+  {
+    "id": "c10e1003-0bfd-4727-b8e9-e1212055b62d",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://www.consciousspeciality.com/",
+    "Name": "Conscious"
+  },
+  {
+    "id": "c41fb655-1355-4bfc-8621-7efe5cce9167",
+    "Continent": "ASIA",
+    "City": "Shanghai",
+    "Website": "#",
+    "Name": "AOKKA"
+  },
+  {
+    "id": "33383102-2d25-415f-b504-eff2eb4e38d4",
+    "Continent": "ASIA",
+    "City": "Osaka",
+    "Website": "https://aomacoffee.com/",
+    "Name": "aoma"
+  },
+  {
+    "id": "44498f1f-f1b5-4464-8c6b-4b274b7af513",
+    "Continent": "OCEANIA",
+    "City": "Melbourne",
+    "Website": "https://mantaraycoffee.com.au/",
+    "Name": "Manta Ray"
+  },
+  {
+    "id": "69941f3f-c711-40e1-92df-26b1b924965f",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://coffeevalley.jp/",
+    "Name": "Coffee Valley"
+  },
+  {
+    "id": "9f8eb2bc-fd88-454e-b5b0-138f23e6e9b9",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://littlenap.jp/",
+    "Name": "Little Nap"
+  },
+  {
+    "id": "f98e3809-ff04-4642-976f-7613752eb9f3",
+    "Continent": "EUROPE",
+    "City": "Copenhagen",
+    "Website": "https://www.aprilcoffeeroasters.com/",
+    "Name": "April"
+  },
+  {
+    "id": "e95929ba-95ea-493a-8be3-e96aba0efa30",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://bongen-shirafushi-coffee.com/",
+    "Name": "Bongen"
+  },
+  {
+    "id": "3cd36773-e5f6-4e4d-8fb0-c2ddc776240a",
+    "Continent": "EUROPE",
+    "City": "Lewes",
+    "Website": "https://taithcoffee.com/",
+    "Name": "Taith"
+  },
+  {
+    "id": "cdcf8920-4d8e-4e51-8cd5-9ee64b641403",
+    "Continent": "EUROPE",
+    "City": "London",
+    "Website": "https://plotroasting.com/",
+    "Name": "Plot"
+  },
+  {
+    "id": "8f76a092-da83-4082-b9ec-5a5629853b3e",
+    "Continent": "ASIA",
+    "City": "Inami",
+    "Website": "https://haizcoffee.myshopify.com/",
+    "Name": "haiz"
+  },
+  {
+    "id": "b69ce304-5576-43fb-b430-9992ebc3a25c",
+    "Continent": "ASIA",
+    "City": "Ito",
+    "Website": "https://coffeenotori.stores.jp/",
+    "Name": "Konotori"
+  },
+  {
+    "id": "fa02a993-6ccb-4b28-9755-ac8804d5ef1b",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://catea-roaster.com/",
+    "Name": "cetea"
+  },
+  {
+    "id": "c2e24fd2-5b5f-4d00-8234-c585842fdf5f",
+    "Continent": "ASIA",
+    "City": "Taipei",
+    "Website": "#",
+    "Name": "アアアアアア豆焙所"
+  },
+  {
+    "id": "1265233c-944d-804d-b7c5-e4f7580c7b62",
+    "Continent": "ASIA",
+    "City": "Bangkok",
+    "Website": "https://nanacoffeeroasters.com/",
+    "Name": "nana"
+  },
+  {
+    "id": "1265233c-944d-80d0-b49a-f91d132015c4",
+    "Continent": "ASIA",
+    "City": "Chiba",
+    "Website": "https://philocoffea.com/",
+    "Name": "philocoffea"
+  },
+  {
+    "id": "cc99594e-4f60-4f2d-a7ff-0deb57499093",
+    "Continent": "EUROPE",
+    "City": "Stockholm",
+    "Website": "https://www.stockholmroast.se/",
+    "Name": "Stockholm Roast"
+  },
+  {
+    "id": "1265233c-944d-8096-887c-f0843bdc65b4",
+    "Continent": "ASIA",
+    "City": "Hong Kong",
+    "Website": "https://blacksugar.coffee/",
+    "Name": "Black Sugar"
+  },
+  {
+    "id": "1265233c-944d-80c7-88db-d148538260ff",
+    "Continent": "ASIA",
+    "City": "Nagoya",
+    "Website": "https://trunkcoffee.thebase.in/",
+    "Name": "Trunk"
+  },
+  {
+    "id": "1265233c-944d-8008-9f5f-dfabd96bfead",
+    "Continent": "ASIA",
+    "City": "Sogawa",
+    "Website": "https://hazerucoffee.com/",
+    "Name": "Hazeru"
+  },
+  {
+    "id": "1265233c-944d-80df-80e8-c401c64518c4",
+    "Continent": "ASIA",
+    "City": "Fukuoka",
+    "Website": "https://manly-coffee.com/",
+    "Name": "Manly"
+  },
+  {
+    "id": "1265233c-944d-8027-b640-ce6d630b51a2",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://coyote-coffee.stores.jp/",
+    "Name": "COYOTE"
+  },
+  {
+    "id": "1265233c-944d-80a2-a604-e2291774f64e",
+    "Continent": "ASIA",
+    "City": "Takasaki",
+    "Website": "https://mainwarmth.stores.jp/",
+    "Name": "warmth"
+  },
+  {
+    "id": "1265233c-944d-80e5-8760-ff398118e1fc",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://lightupcoffee.com/",
+    "Name": "Light up"
+  },
+  {
+    "id": "1265233c-944d-80d5-92d7-e337e466b9c3",
+    "Continent": "ASIA",
+    "City": "Nagasaki",
+    "Website": "https://kariomons.com/",
+    "Name": "kariomons"
+  },
+  {
+    "id": "1265233c-944d-808f-a9d8-cbd6cc3b6cef",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://passagecoffee.com/",
+    "Name": "Passage"
+  },
+  {
+    "id": "9dec31fa-a5bf-4bbf-a03e-b118ea5e3d4e",
+    "Continent": "ASIA",
+    "City": "Jakarta",
+    "Website": "https://www.commongrounds.co.id/",
+    "Name": "Common Grounds"
+  },
+  {
+    "id": "a05181b5-c1c5-45fb-9d7f-f15d3f590296",
+    "Continent": "ASIA",
+    "City": "Fukuoka",
+    "Website": "https://www.tokado-coffee.com/",
+    "Name": "Tokado"
+  },
+  {
+    "id": "640bb6c7-77ef-49c4-9b54-ae0f727c3685",
+    "Continent": "OCEANIA",
+    "City": "Melbourne",
+    "Website": "https://codeblackcoffee.com.au/",
+    "Name": "Code Black"
+  },
+  {
+    "id": "463535cf-7823-499c-b43f-ebc82185923b",
+    "Continent": "ASIA",
+    "City": "Busan",
+    "Website": "https://en.momos.co.kr/index.html",
+    "Name": "Momos"
+  },
+  {
+    "id": "42c396a8-9e74-46d2-9f85-b63835387b57",
+    "Continent": "EUROPE",
+    "City": "Zurich",
+    "Website": "https://rose-coffee.com/",
+    "Name": "Rose"
+  },
+  {
+    "id": "627c7792-cfa7-4058-b204-2c2563000224",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "http://www.switchcoffeetokyo.com/",
+    "Name": "Switch"
+  },
+  {
+    "id": "714a1856-0284-4d08-90f6-3e0011d0bb0d",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://minutescoffee.stores.jp/",
+    "Name": "minutes"
+  },
+  {
+    "id": "a4820c2f-a228-47da-8e52-96af35db7f0e",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://pharoscoffee.com/",
+    "Name": "pharos"
+  },
+  {
+    "id": "763aab78-db3c-462a-87e6-9f40ea0b0e41",
+    "Continent": "ASIA",
+    "City": "Tokyo",
+    "Website": "https://c-c-coffee.com/",
+    "Name": "The Cream of the Crop"
+  },
+  {
+    "id": "75aa265d-9d10-43fc-ba37-a2468d794d00",
+    "Continent": "ASIA",
+    "City": "Kyoto",
+    "Website": "https://yoshiharacoffee.stores.jp/",
+    "Name": "Yoshihara"
+  },
+  {
+    "id": "172412c6-08f3-8082-a13a-ce981ed3e4cd",
+    "Continent": "AMERICA",
+    "City": "Old Town",
+    "Website": "https://www.blindtigercoffee.com/",
+    "Name": "Blind Tiger"
+  },
+  {
+    "id": "172412c6-08f3-8009-86e5-f2eb97afd4ce",
+    "Continent": "EUROPE",
+    "City": "Galway",
+    "Website": "https://calendarcoffee.ie",
+    "Name": "Calendar"
+  },
+  {
+    "id": "168412c6-08f3-80f0-88b3-fcdc6195b32b",
+    "Continent": "EUROPE",
+    "City": "Forlí",
+    "Website": "https://shop.gardellicoffee.com/",
+    "Name": "Gardelli"
+  },
+  {
+    "id": "172412c6-08f3-8055-b298-cca37bf788c6",
+    "Continent": "EUROPE",
+    "City": "Bolton",
+    "Website": "https://oddyknockycoffee.co.uk/",
+    "Name": "Oddy Knocky"
+  }
+]

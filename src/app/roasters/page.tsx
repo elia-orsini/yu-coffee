@@ -7,28 +7,21 @@ import { Metadata } from "next";
 import divideRoastersByContinent from "@/utils/divideRoastersByContinent";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { ICafe } from "@/types/Cafe";
 import Link from "next/link";
+import roastersData from "@/data/roasters.json";
 
-const getData = async (): Promise<{ roasters: IRoaster[]; cafes: ICafe[] }> => {
-  const roasters = await fetch(process.env.URL + `/api/roasters`).then((res) =>
-    res.json()
-  );
-
-  const cafes = await fetch(process.env.URL + `/api/cafes`).then((res) =>
-    res.json()
-  );
-
-  return { roasters, cafes };
-};
-
-const IndexPage: React.FC = async () => {
-  const { roasters, cafes } = await getData();
+const IndexPage: React.FC = () => {
+  const roasters = roastersData as IRoaster[];
   const groupedByContinent = divideRoastersByContinent(roasters);
+  const continents = Object.keys(groupedByContinent).length;
 
   return (
     <div className="min-h-screen flex-col flex justify-between bg-black text-white">
-      <Header cafesLength={cafes.length} />
+      <Header
+        count={roasters.length}
+        label="roasters"
+        continents={continents}
+      />
 
       <div className="absolute h-screen w-screen flex z-20 top-20">
         <Link

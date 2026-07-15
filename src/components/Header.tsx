@@ -1,6 +1,10 @@
 import Link from "next/link";
 
-const Header: React.FC<{ cafesLength: number }> = ({ cafesLength }) => {
+const Header: React.FC<{
+  count: number;
+  label: string;
+  continents: number;
+}> = ({ count, label, continents }) => {
   return (
     <div
       id="HeaderTop"
@@ -9,7 +13,9 @@ const Header: React.FC<{ cafesLength: number }> = ({ cafesLength }) => {
       <Link href="/" className="text-2xl">
         沁瑜<span className="ml-1">&apos;s Coffee Map</span>
       </Link>
-      <p className="text-sm mt-2">{cafesLength} cafes / 2 continents</p>
+      <p className="text-sm mt-2">
+        {count} {label} / {continents} continents
+      </p>
     </div>
   );
 };

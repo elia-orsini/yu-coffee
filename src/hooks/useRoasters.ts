@@ -5,7 +5,7 @@ export default function useRoasters() {
   const { data, error, isLoading } = useSWR(`/api/roasters`, SWRFetcher());
 
   return {
-    roasters: data,
+    roasters: data ?? [],
     isLoadingRoasters: isLoading,
     isError: error,
   };

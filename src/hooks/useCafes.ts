@@ -5,7 +5,7 @@ export default function useCafes() {
   const { data, error, isLoading } = useSWR(`/api/cafes`, SWRFetcher());
 
   return {
-    cafes: data,
+    cafes: data ?? [],
     isLoadingCafes: isLoading,
     isError: error,
   };

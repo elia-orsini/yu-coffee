@@ -24,13 +24,13 @@ export default function Home() {
   const isLoading = isLoadingCafes || isLoadingRoasters;
 
   useEffect(() => {
-    if (!isLoading) {
-      const europe = cafes.filter((cafe: ICafe) => cafe.continent === "europe");
-      const asia = cafes.filter((cafe: ICafe) => cafe.continent === "asia");
+    if (isLoading || !Array.isArray(cafes)) return;
 
-      setEuropeanCafes(europe);
-      setAsianCafes(asia);
-    }
+    const europe = cafes.filter((cafe: ICafe) => cafe.continent === "europe");
+    const asia = cafes.filter((cafe: ICafe) => cafe.continent === "asia");
+
+    setEuropeanCafes(europe);
+    setAsianCafes(asia);
   }, [cafes, isLoading]);
 
   useGSAP(() => {
@@ -54,7 +54,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
-      <Header cafesLength={cafes.length} />
+      <Header count={cafes.length} label="cafes" continents={2} />
 
       <div id="Main">
         <MagicButton setter={setContinent} />
